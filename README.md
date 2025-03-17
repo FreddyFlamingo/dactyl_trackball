@@ -53,7 +53,7 @@ Diodes (1N4148)
 26 AWG wire
 
 ## Wiring Guide
-![Wire picture](https://imgur.com/a/2q27Mdy)
+![Wire picture](https://i.imgur.com/fAKTb3D_d.webp?maxwidth=760&fidelity=grand)
 The keyboard uses a standard matrix wiring approach with diodes. The trackball sensor connects to the controller via SPI.
 ![Wires](https://imgur.com/fAKTb3D)
 ![Mcu](https://imgur.com/yIDgMUQ)
