@@ -16,7 +16,7 @@ This project modifies the original Dactyl CC design to integrate a 34mm trackbal
 * Multiple layers for different use cases (base, mod, mouse, calculator, code, etc.)
 
 ```
- +--------+--------+--------+--------+--------+--------+                          +--------+--------+--------+--------+--------+--------+
++--------+--------+--------+--------+--------+--------+                          +--------+--------+--------+--------+--------+--------+
 |  ESC   |   1    |   2    |   3    |   4    |   5    |                          |   6    |   7    |   8    |   9    |   0    |  MINS  |
 +--------+--------+--------+--------+--------+--------+                          +--------+--------+--------+--------+--------+--------+
 |  TAB   |   Q    |   W    |   E    |   R    |   T    |                          |   Y    |   U    |   I    |   O    |   P    |  LBRC  |
@@ -52,9 +52,12 @@ TRRS cable for split communication
 Diodes (1N4148)
 26 AWG wire
 
+and more...
+
 ## Wiring Guide
+The keyboard uses a standard matrix wiring approach with diodes. The trackball sensor connects to the controller via SPI. See the top left corner of the first picture below.
+
 ![Wire picture](https://i.imgur.com/fAKTb3D_d.webp?maxwidth=760&fidelity=grand)
-The keyboard uses a standard matrix wiring approach with diodes. The trackball sensor connects to the controller via SPI.
 ![Wires](https://i.imgur.com/S0rAHqz.jpeg)
 ![More wires](https://i.imgur.com/YsM7Rai.jpeg)
 ![Mcu](https://i.imgur.com/yIDgMUQ.jpeg)
