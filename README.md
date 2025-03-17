@@ -41,16 +41,16 @@ This project modifies the original Dactyl CC design to integrate a 34mm trackbal
 ## Hardware Requirements
 
 ### Components
-2× Raspberry Pi Pico microcontrollers
-PWM3389 trackball sensor (available on Tindie)
-34mm trackball
-3× roller bearings (3×6×2.5mm)
-3× M3×6mm pins/dowels for roller bearings
-2× 2.5/3.5mm TRRS jacks (PJ-320A recommended)
-TRRS cable for split communication
-2× M2.5 screws and thread inserts for the motion sensor
-Diodes (1N4148)
-26 AWG wire
+* 2× Raspberry Pi Pico microcontrollers
+* PWM3389 trackball sensor (available on Tindie)
+* 34mm trackball
+* 3× roller bearings (3×6×2.5mm)
+* 3× M3×6mm pins/dowels for roller bearings
+* 2× 2.5/3.5mm TRRS jacks (PJ-320A recommended)
+* TRRS cable for split communication
+* 2× M2.5 screws and thread inserts for the motion sensor
+* Diodes (1N4148)
+* 26 AWG wire
 
 and more...
 
@@ -74,8 +74,9 @@ Edit the MCU holder to fit the Pi Pico controllers
 ### Lessons Learned and Recommendations
 If you're building this keyboard, consider these recommendations:
 
-Add protection for the motion controller: The current design has the PWM3389 sensor exposed. Consider designing a cover or case for it.
-Test all connections thoroughly before assembly: Due to the tight space constraints with the Pi Pico, it's very difficult to fix wiring issues after assembly. The controller is quite long, requiring 90-degree bends in the wiring at solder points to fit inside the case.
+- Add protection for the motion controller: The current design has the PWM3389 sensor exposed. Consider designing a cover or case for it.
+
+- Test all connections thoroughly before assembly: Due to the tight space constraints with the Pi Pico, it's very difficult to fix wiring issues after assembly. The controller is quite long, requiring 90-degree bends in the wiring at solder points to fit inside the case.
 
 ## Components and Sourcing
 I sourced components from various places:
