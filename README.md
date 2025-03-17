@@ -1,7 +1,7 @@
 # Dactyl Trackball
 A customized split ergonomic keyboard based on mjohns Dactyl CC with integrated trackball functionality using the PWM3389 sensor and RP2040-based controllers.
 
-![Dactyl trackball](https://imgur.com/a/dactyl-trackball-PwmsojS)
+![Dactyl trackball](https://i.imgur.com/ebR42UL.jpeg)
 
 ## Overview
 This project modifies the original Dactyl CC design to integrate a 34mm trackball, allowing for cursor control without moving your hands from the keyboard. The design uses Pi Pico microcontrollers and the PWM3389 sensor for accurate trackball motion tracking.
@@ -55,8 +55,9 @@ Diodes (1N4148)
 ## Wiring Guide
 ![Wire picture](https://i.imgur.com/fAKTb3D_d.webp?maxwidth=760&fidelity=grand)
 The keyboard uses a standard matrix wiring approach with diodes. The trackball sensor connects to the controller via SPI.
-![Wires](https://imgur.com/fAKTb3D)
-![Mcu](https://imgur.com/yIDgMUQ)
+![Wires](https://i.imgur.com/S0rAHqz.jpeg)
+![More wires](https://i.imgur.com/YsM7Rai.jpeg)
+![Mcu](https://i.imgur.com/yIDgMUQ.jpeg)
 
 ## Build Process
 I used [ntarocco's guide](https://github.com/ntarocco/dactyl-cc) as a base for the build, along with this [build log](https://medium.com/@kincade/track-beast-build-log-a-trackball-dactyl-manuform-19eaa0880222) of a trackball-integrated Dactyl Manuform.
